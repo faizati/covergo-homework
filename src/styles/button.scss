@@ -1,0 +1,32 @@
+.btn {
+    border-radius: 5px;
+    width: auto;
+    padding: 10px 20px;
+}
+
+.primary-btn {
+    background: $main-green;
+    border:1px solid  $main-green;
+    color: $main-white;
+}
+
+.default-btn {
+    background: $main-white;
+    border:1px solid  $main-green;
+    color: $main-green;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.page-navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    button:first-child {
+        margin-right: 10px;
+    }
+}
